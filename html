@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ektara Sports</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      /* Box for "Welcome to Ektara" */
+      .hero-content {
+        background-color: #5a189a; /* Purple background */
+        color: white; /* White text */
+        padding: 30px;
+        border-radius: 10px; /* Rounded corners */
+        text-align: center;
+        max-width: 700px;
+        margin: 20px auto; /* Center the box */
+      }
+
+      /* Contact section and hover effect (kept as is) */
+      .vertical-form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        max-width: 500px;
+      }
+      .contact-container {
+        display: flex;
+        justify-content: flex-start; 
+        align-items: flex-start;
+        padding: 50px 20px;
+        margin-left: 50px; 
+      }
+      .contact-form {
+        width: 50%; 
+      }
+      .contact-image {
+        width: 50%; 
+        display: flex;
+        justify-content: center; 
+      }
+      .contact-image img {
+        width: 100%; 
+        height: auto; 
+        transition: transform 0.3s; 
+      }
+      .contact-image img:hover {
+        transform: scale(1.05); 
+      }
+
+      /* Social media icons */
+      .social-icons {
+        text-align: center;
+        margin: 50px 0;
+      }
+      .social-icons img {
+        width: 50px;
+        margin: 0 10px;
+        transition: transform 0.3s; 
+      }
+      .social-icons img:hover {
+        transform: scale(1.1); /* Zoom effect on hover */
+      }
+
+      /* Client logos section */
+      .client-logos {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      .client-logos img {
+        width: 100px;
+      }
+
+      /* Other sections */
+      .membership-options, .sports-products {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+      }
+
+      .membership-option, .sports-product {
+        width: 45%;
+        border: 2px solid #ccc;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.3s;
+      }
+
+      .membership-option:hover, .sports-product:hover {
+        transform: scale(1.1); /* Slight zoom effect on hover */
+      }
+
+      .sports-product img, .membership-option img {
+        width: 150px;
+      }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="#"><img src="https://i.ibb.co/F4hDdYc/Leonardo-Phoenix-Create-a-distinctive-logo-featuring-the-lette-1.jpg" alt="Ektara Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Our products</a></li>
+                <li><a href="#">Book session</a></li>
+                <li><a href="#">Contact us</a></li>
+              <li><a href="#">Help?</a>
+    </li>            
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Ektara</h1>
+            <p>Discover a wide range of sports and personal training services at your convenience.</p>
+            <div class="hero-buttons">
+                <a href="#" class="cta">Join Us</a>
+                <a href="#" class="cta">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Options -->
+    <section class="membership-options">
+        <div class="membership-option">
+            <h3>Premium Membership</h3>
+            <ul>
+                <li>Unlimited access to all sports facilities</li>
+                <li>Personal training at your convenience</li>
+                <li>Exclusive discounts on merchandise</li>
+            </ul>
+            <a href="#" class="cta">Join Premium</a>
+        </div>
+        <div class="membership-option">
+            <h3>Free Membership</h3>
+            <ul>
+                <li>Access to community sports events</li>
+                <li>Basic training programs</li>
+                <li>Flexible scheduling for sessions</li>
+            </ul>
+            <a href="#" class="cta">Join Free</a>
+        </div>
+    </section>
+
+    <!-- Sections -->
+    <section class="membership">
+        <h2>Membership</h2>
+        <p>Choose from a variety of membership options that fit your lifestyle and goals.</p>
+    </section>
+
+    <section class="sports">
+        <h2>Sports</h2>
+        <p>We offer a wide range of sports including basketball, tennis, swimming, and more.</p>
+    </section>
+
+    <section class="trainers">
+        <h2>Trainers</h2>
+        <p>Our professional trainers are here to guide you at your convenience, even at home.</p>
+    </section>
+
+    <section class="branches">
+        <h2>Nearest Branches</h2>
+        <p>Find the nearest branch to you and start your training today.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section class="sports-products">
+        <h2>Our Products: Gear up for greatness!</h2>
+        <div class="sports-product">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/ngY3Vny/sports-shoe.webp" alt="sports-shoe" border="0"></a>
+            <p>Sports Shoes</p>
+            <a href="#" class="next-button">View More</a>
+        </div>
+        <div class="sports-product">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/RDpwpxg/football.jpg" alt="football" border="0"></a>
+            <p>Football</p>
+            <a href="#" class="next-button">View More</a>
+        </div>
+        <div class="sports-product">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/X5kNP5H/sport-dress.jpg" alt="sport-dress" border="0"></a>
+            <p>Sports Wear</p>
+            <a href="#" class="next-button">View More</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="contact-container">
+        <div class="contact-image">
+            <a href="https://ibb.co/RNz08dk">
+                <img src="https://i.ibb.co/qCks6V3/contact-image.jpg" alt="Contact Image" />
+            </a>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form class="vertical-form" action="https://submit-form.com/6AZZ9cjJb">
+                <label for="first-name">First name</label>
+                <input id="first-name" name="first-name" type="text" required />
+                <label for="last-name">Last name</label>
+                <input id="last-name" name="last-name" type="text" required />
+                <label for="message">Feedback</label>
+                <textarea id="Feedback" name="Feedback" cols="15" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Clients and Partners Section -->
+    <section id="clients" class="clients">
+        <h2>Our Clients & Associated Partners</h2>
+        <div class="client-logos">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/pR1dkMN/logo-1.jpg" alt="Brand 1 Logo"></a>
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/f2Cx65F/logo-2.jpg" alt="Brand 2 Logo"></a>
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/m5fhvr7/logo3.jpg" alt="Brand 3 Logo"></a>
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/tBrjV9T/logo-four.png" alt="Brand 4 Logo"></a>
+        </div>
+    </section>
+
+    <!-- Social Media Icons (Moved below Contact Section) -->
+   <!-- Social Media Icons -->
+<div class="social-icons">
+    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo"></a>
+    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo"></a>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ektara. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
